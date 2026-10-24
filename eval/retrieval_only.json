@@ -1,0 +1,137 @@
+{
+  "k": 3,
+  "retrieval_hits": 10,
+  "total": 10,
+  "rows": [
+    {
+      "id": "Q1",
+      "question": "Can I email a patient's lab results to my personal Gmail account so I can finish my work at home?",
+      "expected": [
+        "P01-1.2"
+      ],
+      "retrieved": [
+        "P01-1.2",
+        "P04-4.1",
+        "P01-1.5"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q2",
+      "question": "How do I email a patient's information to an outside specialist?",
+      "expected": [
+        "P01-1.2"
+      ],
+      "retrieved": [
+        "P01-1.2",
+        "P01-1.5",
+        "P01-1.3"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q3",
+      "question": "How long do we keep an adult patient's medical record?",
+      "expected": [
+        "P02-2.1"
+      ],
+      "retrieved": [
+        "P02-2.1",
+        "P06-6.5",
+        "P06-6.2"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q4",
+      "question": "What is the minimum length of a password?",
+      "expected": [
+        "P03-3.2"
+      ],
+      "retrieved": [
+        "P03-3.2",
+        "P03-3.1",
+        "P03-3.5"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q5",
+      "question": "My work laptop was stolen. How fast do I have to tell IT?",
+      "expected": [
+        "P04-4.4"
+      ],
+      "retrieved": [
+        "P04-4.4",
+        "P05-5.2",
+        "P05-5.4"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q6",
+      "question": "After a breach is confirmed, how long does the clinic have to notify the affected patients?",
+      "expected": [
+        "P05-5.4"
+      ],
+      "retrieved": [
+        "P05-5.4",
+        "P07-7.4",
+        "P05-5.5"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q7",
+      "question": "A patient asked for a copy of their records. How quickly must we respond?",
+      "expected": [
+        "P06-6.2"
+      ],
+      "retrieved": [
+        "P06-6.2",
+        "P02-2.1",
+        "P05-5.4"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q8",
+      "question": "Does a new software vendor have to sign anything before they can see patient data?",
+      "expected": [
+        "P07-7.1"
+      ],
+      "retrieved": [
+        "P07-7.1",
+        "P06-6.3",
+        "P06-6.5"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q9",
+      "question": "Can I paste a patient's visit notes into a public AI chatbot to summarize them?",
+      "expected": [
+        "P07-7.6"
+      ],
+      "retrieved": [
+        "P07-7.6",
+        "P01-1.5",
+        "P06-6.4"
+      ],
+      "hit": true
+    },
+    {
+      "id": "Q10",
+      "question": "When someone leaves the clinic, how soon must their system access be removed?",
+      "expected": [
+        "P03-3.5"
+      ],
+      "retrieved": [
+        "P06-6.2",
+        "P02-2.1",
+        "P03-3.5"
+      ],
+      "hit": true
+    }
+  ]
+}
