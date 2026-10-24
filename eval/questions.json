@@ -1,0 +1,87 @@
+{
+  "_note": "Answer key written BEFORE running the system. expected_sections = chunks that contain the answer (retrieval hit if any appears in top-k). answer_keywords are only a quick hint; judge correctness manually against expected_answer.",
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "Can I email a patient's lab results to my personal Gmail account so I can finish my work at home?",
+      "expected_sections": ["P01-1.2"],
+      "expected_answer": "No. ePHI must never be sent to personal email accounts.",
+      "answer_keywords": ["personal"]
+    },
+    {
+      "id": "Q2",
+      "question": "How do I email a patient's information to an outside specialist?",
+      "expected_sections": ["P01-1.2"],
+      "expected_answer": "Use the clinic's encrypted email system by typing [SECURE] at the start of the subject line.",
+      "answer_keywords": ["secure"]
+    },
+    {
+      "id": "Q3",
+      "question": "How long do we keep an adult patient's medical record?",
+      "expected_sections": ["P02-2.1"],
+      "expected_answer": "10 years after the last date of service.",
+      "answer_keywords": ["10 years"]
+    },
+    {
+      "id": "Q4",
+      "question": "What is the minimum length of a password?",
+      "expected_sections": ["P03-3.2"],
+      "expected_answer": "At least 14 characters.",
+      "answer_keywords": ["14"]
+    },
+    {
+      "id": "Q5",
+      "question": "My work laptop was stolen. How fast do I have to tell IT?",
+      "expected_sections": ["P04-4.4"],
+      "expected_answer": "Report to the IT Help Desk within 1 hour of discovery.",
+      "answer_keywords": ["hour"]
+    },
+    {
+      "id": "Q6",
+      "question": "After a breach is confirmed, how long does the clinic have to notify the affected patients?",
+      "expected_sections": ["P05-5.4"],
+      "expected_answer": "Without unreasonable delay and no later than 60 calendar days after discovery.",
+      "answer_keywords": ["60"]
+    },
+    {
+      "id": "Q7",
+      "question": "A patient asked for a copy of their records. How quickly must we respond?",
+      "expected_sections": ["P06-6.2"],
+      "expected_answer": "Within 30 calendar days, with one possible 30-day extension if the patient is notified in writing.",
+      "answer_keywords": ["30"]
+    },
+    {
+      "id": "Q8",
+      "question": "Does a new software vendor have to sign anything before they can see patient data?",
+      "expected_sections": ["P07-7.1"],
+      "expected_answer": "Yes, a Business Associate Agreement (BAA).",
+      "answer_keywords": ["business associate"]
+    },
+    {
+      "id": "Q9",
+      "question": "Can I paste a patient's visit notes into a public AI chatbot to summarize them?",
+      "expected_sections": ["P07-7.6"],
+      "expected_answer": "No, unless the tool is covered by a signed BAA and approved in writing by the Security Officer.",
+      "answer_keywords": ["approv"]
+    },
+    {
+      "id": "Q10",
+      "question": "When someone leaves the clinic, how soon must their system access be removed?",
+      "expected_sections": ["P03-3.5"],
+      "expected_answer": "Within 4 hours of termination.",
+      "answer_keywords": ["4 hours"]
+    }
+  ],
+  "out_of_scope": [
+    {
+      "id": "X1",
+      "question": "What is the clinic's policy on employee parking?",
+      "expected_answer": "Not covered. The assistant should say the provided policies do not cover this."
+    },
+    {
+      "id": "X2",
+      "question": "How many vacation days do full-time employees get per year?",
+      "expected_answer": "Not covered. The assistant should say the provided policies do not cover this."
+    }
+  ]
+}
